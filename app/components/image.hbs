@@ -1,8 +1,6 @@
-<div>
-    this is just testing the name 
-    <li>{{@name}}</li> 
-    <li>{{@label}}</li>
-    <li>{{@path}}</li> 
-    <img src={{@path}} alt={{@label}}/>     
+<div class="image-view">
+    <li class="left-images">{{@label}}</li>
+    <li class="left-images">{{@path}}</li> 
+    <LinkTo @route="Preview-Image" @model={{@imaged}}><img class="left-images" src={{@path}} alt={{@label}}/></LinkTo>  
 </div>
 
