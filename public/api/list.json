@@ -1,0 +1,16 @@
+{
+  "data": [
+    {
+      "path": "/images/1.jpg",
+      "label": "1.jpg"
+    },
+    {
+      "path": "/images/2.jpg",
+      "label": "2.jpg"
+    },
+    {
+      "path": "/images/3.jpg",
+      "label": "3.jp"
+    }
+  ] 
+}
