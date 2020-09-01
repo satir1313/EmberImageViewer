@@ -2,8 +2,11 @@
 
 @import "ember-bootstrap/bootstrap";
 
-.left-images
-{
-    margin-left: 950px;
-    padding: 6px;
+.img-thumbnail{
+    height: 200px;
+    width: 250px;
+}
+
+.list-group{
+    margin-left: 0;
 }
