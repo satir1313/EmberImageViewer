@@ -8,5 +8,4 @@ export default class Router extends EmberRouter {
 
 Router.map(function() {
   this.route('Preview-Image');
-  this.route('Preview-Image', {path: 'Preview-Images/:Preview-Image_id'});
-});
+  });
