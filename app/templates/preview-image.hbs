@@ -1,21 +1,18 @@
-<div class="container-fluid">
+<main class="container-fluid">
     <div class="row">
-        <div class="col-sm-2" style="margin-top: 20px;">
+        <div class="col-sm-4" style="margin-top: 20px;">
             <List @imageList={{@model.data}}/>
-        </div>
-        <div class="col-sm-2" style="margin-top: 20px;">
-            <ListPath @imageList={{@model.data}}/>
         </div>
         <div class="col-sm-2" style="margin-top: 20px;">
              <PreviewImage @imageList={{@model.data}}/>  <!-- @model.data because the json information has been wrapped in the data array -->
         </div>
         <div class="col-md-6" style="margin-top: 20px;">
-             <div class="container">
-                 
+             <div>
+                 <img id="show-box" />
              </div>
         </div>
     </div>
-</div>
+</main>
 
 
 {{outlet}}

@@ -1,15 +1,15 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Imago Live</a>
+  <LinkTo @route="index"><img src="/images/imagolive-logo.jpg" class="logo"/></LinkTo>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        <LinkTo class="nav-link" @route="index">Home</LinkTo><span class="sr-only">(current)</span>
       </li>
       <li class="nav-item">      
-        <LinkTo class="nav-link" @route="Preview-Image" @model={{@imaged}}>Image Inventory</LinkTo>
+        <LinkTo class="nav-link" @route="Preview-Image">Image Inventory</LinkTo>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Pricing</a>

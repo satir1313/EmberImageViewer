@@ -3,10 +3,25 @@
 @import "ember-bootstrap/bootstrap";
 
 .img-thumbnail{
-    height: 200px;
-    width: 250px;
+    height: auto;
+    width: auto;
 }
 
 .list-group{
     margin-left: 0;
+}
+
+.logo{
+    height: 60px;
+    width: 300px;
+    padding-right: 100px;
+}
+
+.nav-item{
+    margin-right: 40px;
+}
+
+.nav-link{
+    font-size: larger;
+    font-weight: 600;
 }

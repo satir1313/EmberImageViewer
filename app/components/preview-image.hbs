@@ -1,5 +1,6 @@
 <div>
     {{#each @imageList as |i|}} <!-- imageList is just name for the liost of images to reasd from json file -->
-    <li><PreviewImage::Image @imaged={{i}}/></li>  <!-- imaged is just a name to be passed to image component to access the models propertiesa -->
+    <li><Image @imaged={{i}} /></li>  <!-- imaged is just a name to be passed to image component to access the models propertiesa -->
     {{/each}}
+    
 </div>
