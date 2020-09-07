@@ -1,2 +1,18 @@
+<div>
+    Main Page of The Application
+</div>
+
+<div id="glMap">
+    <div id='map' style='width: 800px; height: 500px;'></div>
+    <script>
+        mapboxgl.accessToken = 'pk.eyJ1Ijoic2F0aXIxMzEzIiwiYSI6ImNrZHk3bXMxbDB3MXIycm53cnk3bW5kcmMifQ.ie0JT1sB3uR60jPbmk3nYw';
+        var map = new mapboxgl.Map({
+        container: 'map',
+        style: 'mapbox://styles/mapbox/streets-v11'
+        });
+    </script>
+</div>
+
 
 {{outlet}}
+

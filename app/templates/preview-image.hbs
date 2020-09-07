@@ -7,8 +7,22 @@
              <PreviewImage @imageList={{@model.data}}/>  <!-- @model.data because the json information has been wrapped in the data array -->
         </div>
         <div class="col-md-6" style="margin-top: 20px;">
-             <div>
-                 <img id="show-box" />
+            <div class="grid grid-vertical">
+                <div class="grid-item g1">
+                    <img id="show-box"/>
+                </div>
+                <div class="grid-item g1" style="margin-top: 15px;">
+                    <div id='map' style='width: 600px; height: 400px;'></div>
+                        <script>
+                            mapboxgl.accessToken = 'pk.eyJ1Ijoic2F0aXIxMzEzIiwiYSI6ImNrZHk3bXMxbDB3MXIycm53cnk3bW5kcmMifQ.ie0JT1sB3uR60jPbmk3nYw';
+                            var map = new mapboxgl.Map({
+                            container: 'map',
+                            style: 'mapbox://styles/mapbox/streets-v11',
+                            center: [115.86, -31.95], // starting position
+                            zoom: 10 // starting zoom
+                            });
+                        </script>
+                </div>
              </div>
         </div>
     </div>

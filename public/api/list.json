@@ -3,17 +3,17 @@
     {
       "id": "1.jpg",
       "path": "/images/1.jpg",
-      "label": "1.jpg"
+      "label": "AI Photo"
     },
     {
       "id": "2.jpg",
       "path": "/images/2.jpg",
-      "label": "2.jpg"
+      "label": "Map of Australia"
     },
     {
       "id": "3.jpg",
       "path": "/images/3.jpg",
-      "label": "3.jpg"
+      "label": "Universe"
     }
   ] 
 }
